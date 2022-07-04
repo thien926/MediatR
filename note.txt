@@ -3,14 +3,15 @@
 3.  PS E:\cthang\net6\MediatR> dotnet sln add ExampleMediatR
 
 
-
-
-
-
-
-
-
 ====================== LIBRARY =======================
 AutoMapper.Extensions.Microsoft.DependencyInjection
 MediatR.Extensions.Microsoft.DependencyInjection
     
+====================== GIT ===========================
+echo "# MediatR" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/thien926/MediatR.git
+git push -u origin master
