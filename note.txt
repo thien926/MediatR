@@ -1,3 +1,16 @@
 1.  PS E:\cthang\net6\MediatR> dotnet new sln --name MediatR
 2.  PS E:\cthang\net6\MediatR> dotnet new webapi -o ExampleMediatR
 3.  PS E:\cthang\net6\MediatR> dotnet sln add ExampleMediatR
+
+
+
+
+
+
+
+
+
+====================== LIBRARY =======================
+AutoMapper.Extensions.Microsoft.DependencyInjection
+MediatR.Extensions.Microsoft.DependencyInjection
+    
