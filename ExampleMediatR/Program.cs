@@ -11,6 +11,7 @@ builder.Services.AddDbContext<MediatRContext>(options =>
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddScoped<TenantRepository>();
+builder.Services.AddMemoryCache();
 
 
 // Add services to the container.
